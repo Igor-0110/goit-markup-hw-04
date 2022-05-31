@@ -89,7 +89,6 @@ ul {
 }
 .contact-icon {
     fill: var(--primary-text-color);
-    margin-right: 10px;
 }
 
 .active-page {
@@ -127,7 +126,12 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.main-section-conteiner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
 .main-section-title {
     color: var(--primary-white-color);
     font-weight: 900;
@@ -139,8 +143,6 @@ ul {
     width: 696px;
     margin-top: 0;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .main-button {
     background-color: var(--accent-color);
@@ -247,10 +249,10 @@ margin-bottom: 50px;
     background: var(--primary-white-color);
 }
 .staff-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 }
 .staff-social {
